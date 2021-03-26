@@ -1,0 +1,702 @@
+#AboutBody{
+    // font-style: italic;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    background: #FFF;
+
+    .extraPadding {
+        padding: 0 5.25% 0 5.25%;
+    }
+
+    a {
+        color: #000;
+    }
+
+    a:hover {
+        text-decoration: none;
+        color: #000;
+    }
+
+    h1 {
+        font-size: 29px;
+        font-weight: 600;
+        color: #000000;
+        line-height: 1.5;
+    }
+
+    h2 {
+        font-size: 25px;
+        font-weight: 600;
+        color: #000000;
+    }
+
+    h3 {
+        color: #000000;
+        font-weight: 600;
+        font-size: 18px;
+    }
+
+    h5 {
+        font-size: 24px;
+        color: #333333;
+        font-weight: 600;
+    }
+
+    h6 {
+        font-size: 20px;
+        color: #556575;
+        font-weight: 400;
+    }
+
+    .colorText {
+        color: #46AAA8;
+    }
+
+    p {
+        font-size: 16px;
+        font-weight: 400;
+        color: #556575;
+
+        img {
+            height: 20px !important;
+        }
+    }
+
+    .smallText {
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+    .button {
+        font-size: 18px;
+        // font-style: italic;
+        font-weight: 500;
+        color: #FFFFFF;
+        background: #16264B;
+        border-radius: 30px;
+        -webkit-border-radius: 30px;
+        -moz-border-radius: 30px;
+        -ms-border-radius: 30px;
+        -o-border-radius: 30px;
+        text-transform: capitalize;
+        border: none;
+        padding: 7px 19px;
+    }
+
+    .button:hover {
+        color: #FFFFFF;
+    }
+
+    .btn:focus,
+    .btn.focus {
+        outline: 0;
+        box-shadow: none;
+    }
+
+    .navbarButton {
+        background: #FFFFFF;
+        color: #333333;
+    }
+
+    .navbarButton:hover {
+        color: #333333;
+    }
+}
+
+// ============== Nav Bar Start ==============
+
+#navBar {
+    background: #F7F9FB;
+
+    .navbar-nav .nav-link {
+        padding: 0.5rem 1.5rem;
+        color: #000000;
+        font-weight: 500;
+        font-size: 18px;
+        text-transform: capitalize;
+    }
+
+    .navbar-brand {
+        color: #1C1C1C;
+        font-weight: 500;
+        font-size: 28px;
+    }
+}
+
+// ============== Nav Bar End ==============
+
+// ============== Banner Start ==============
+.banner {
+    background: #F7F9FB;
+
+    .extraMarginbyPadding {
+        padding: 3rem 0;
+    }
+
+    .bannerLeft {
+        margin-left: 5rem;
+
+        .banner-description {
+            color: #000000;
+        }
+
+        input {
+            width: 61%;
+            background: #FFFF;
+            border: 1px solid #E7E7E7;
+            padding: 28px;
+
+            ::placeholder {
+                color: #333333;
+                font-size: 19px;
+                font-weight: 300;
+            }
+        }
+
+        .bannerForm {
+            button {
+                width: 32%;
+                padding: 15px 0;
+                text-transform: uppercase;
+                background: #344B66;
+                color: #FFFFFF;
+                font-size: 16px;
+                font-weight: 500;
+            }
+
+        }
+    }
+
+    .topRate {
+        color: #181616;
+        font-weight: 400;
+    }
+
+    .bannerRight {
+        margin-left: 6rem;
+    }
+}
+
+// ============== Banner End ==============
+
+// ===============featuredIn Start===========
+
+#featuredIn {
+    background: #F7F9FB;
+
+    .featured {
+
+        // margin: 0 auto;
+        h5 {
+            color: #556575;
+            font-size: 18px;
+        }
+    }
+
+    .feturedImg {
+        margin: 0 auto;
+    }
+}
+
+
+// ===============featuredIn End===========
+
+// ===============premeumWork Start===========
+
+#premeumWork {
+    .card-deck {
+        .card {
+            border: none;
+
+            h3 {
+                font-size: 14px;
+            }
+
+            p {
+                font-size: 14px;
+                text-align: center;
+            }
+        }
+    }
+}
+
+// ===============premeumWork End===========
+
+// ===============Our Program Start=========
+#ourProgram {
+    .programElement {
+        margin: 0 auto;
+        width: 75%;
+    }
+
+    .element-separator {
+        width: 47.5%;
+        background: #344B66;
+
+        h5 {
+            font-size: 20px;
+            color: #fff;
+        }
+
+    }
+    .techwayLeft {
+        h2 {
+            line-height: 1.5;
+        }
+    }
+}
+.techwayRight {
+    position: relative;
+}
+
+.playBtn {
+    height: 100px;
+    width: 100px;
+    background: rgba(255, 255, 255, .5);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    cursor: pointer;
+
+    i {
+        color: #46AAA8;
+        font-size: 45px;
+        line-height: 100px;
+    }
+}
+// ===============Our Program End===========
+
+// ===============successStory Start===========
+
+#successStory {
+    .story {
+        font-size: 18px;
+        color: #556575;
+    }
+
+    .story::before {
+        content: "";
+        background: url('../images/success-stories-bg.png');
+        background-repeat: no-repeat;
+        opacity: 0.1;
+        top: -10%;
+        left: 3.2%;
+        bottom: 0;
+        right: 0;
+        position: absolute;
+        z-index: -1;
+    }
+
+    .stufBrif {
+        color: #161616;
+    }
+
+    .card-deck {
+        .card {
+            box-shadow: 0px 0px 30px #dbdbdb;
+            border: 1px solid #dbdbdb;
+
+            .card-title {
+                font-size: 15px;
+                color: #333333;
+
+                i {
+                    color: #46AAA8;
+                }
+            }
+        }
+    }
+}
+
+// ===============successStory End===========
+
+// ===============Empolye Start===========/
+#employmentMarket {
+    h2 {
+        line-height: 1.7;
+    }
+
+    .eployLeft {
+        // background: red;
+        box-shadow: 0px 0px 10px #dbdbdb;
+
+        h2 {
+            line-height: 1.7;
+        }
+
+        p {
+            line-height: 1.8;
+        }
+    }
+
+    .eployRight {
+        p {
+            font-size: 15px;
+            color: #556575;
+        }
+
+        .eployBorder {
+            font-size: 16px;
+            color: #333333;
+            border-left: 5px solid #15BA8B;
+        }
+    }
+
+    .employDownRight {
+
+        p {
+            font-size: 15px;
+        }
+
+        ul {
+            div {
+                li {
+                    font-size: 13.5px;
+                    line-height: 2;
+                    color: #000;
+                }
+
+                img {
+                    height: 14px;
+                }
+            }
+        }
+
+        .textMedium {
+            li {
+                font-weight: 500;
+                font-size: 12px;
+            }
+        }
+    }
+
+}
+
+// ===============Empolye End===========/
+
+// ===============Footer Start===========/
+.footer {
+    h1 {
+        font-size: 27px;
+    }
+
+    .bannerForm {
+        .footerBtn {
+            background: #46AAA8 !important;
+        }
+
+    }
+
+    .career {
+        font-size: 20px;
+        color: #010101;
+    }
+
+    .footerRight {
+        ul div {
+            img {
+                height: 17px;
+            }
+
+            li {
+                font-size: 17px;
+                line-height: 2.5;
+                color: #000;
+                font-weight: 500;
+            }
+        }
+    }
+
+    .divSeparetor {
+        height: 1px;
+        width: 83%;
+        background: #707070;
+        opacity: 30%;
+        margin-left: 7.5%;
+    }
+
+    .footerLink {
+        ul li {
+            font-size: 16px;
+            color: #000000;
+            font-weight: 400;
+            line-height: 2;
+        }
+    }
+
+    .copyright {
+        small {
+            font-size: 14px;
+            font-weight: 500;
+            color: #000000;
+        }
+    }
+}
+
+// ===============Footer End===========/
+
+// =============== About US page Start=======
+
+
+
+
+// =============== About US page End=======
+
+.aboutUs1{
+    background: #F7F9FB;
+}
+.aboutUs_1{
+    // background: #fff;
+}
+    .aboutUsBannerDescription{
+        line-height: 1.8;
+    }
+    .afterPersentise{
+        width: 75%;
+        margin: 0 auto;
+        p{
+            color: #333333;
+        }
+    }
+    .persentage90{
+        font-size: 55px;
+    }
+    .aboutGraduate{
+        font-size: 15px;
+        font-weight: 400;
+       
+    }
+    .aboutUsList{
+        li{
+            font-size: 15px;
+            color: #556575;
+        }
+        div img{
+            height: 15px;
+        }
+    }
+    .eployLeft{
+        max-height: 440px;
+    }
+   
+    .aboutUsPeopleControl{
+        box-shadow: 0px 0px 30px #dbdbdb;
+        .peopleNameControl{
+            position: relative;
+        }
+        .peopleName::before {
+            content: "";
+            background: url('../images/smallQutation.png');
+            background-repeat: no-repeat;
+            opacity: 0.1;
+            top: 13%;
+            left: -10%;
+            bottom: -10%;
+            right: 0;
+            position: absolute;
+            z-index: 1;
+        }
+        .peopleNameExperience::before{
+            content: "";
+            background: url('../images/smallQutation.png');
+            background-repeat: no-repeat;
+            opacity: 0.1;
+            top: 13%;
+            left: -3.5%;
+            bottom: -10%;
+            right: 0;
+            position: absolute;
+            z-index: 1;
+        }
+
+        p{
+            font-size: 14px;
+        }
+        h5{
+            font-size: 14px;
+            font-weight: 700;
+            margin: 0;
+        }
+        small{
+            font-size: 13px;
+            font-weight: 400;
+            margin: 0;
+        }
+        position: relative;
+        .peopleOfAboutUs{
+            position: absolute;
+            top: -3%;
+            left: -10%;
+            height: 65px;
+        }
+    }
+    .aboutPeopleControlExtra{
+        box-shadow: 0px 0px 30px #f5f5f5;
+    }
+    .partnerRecruiters{
+        width: 80%;
+        margin: 0 auto;
+        .descriptionExtraReduce{
+            width: 75%;
+            margin: 0 auto;
+        }
+    }
+
+
+    // ============= Why Hired Our Graduates Start -=======
+
+    .realValueCards{
+        .card-deck{
+            .card{
+                border: none;
+                box-shadow: 0px 0px 30px #eeeeee;
+                h5{
+                    font-size: 16px;
+                    font-weight: 500;
+                }
+                p{
+                    font-size: 15px;
+                    line-height: 1.7;
+                    padding-top: 15px;
+                }
+            }
+            .card:hover{
+               .card-title{
+                   color: #15BA8B;
+                   transition: .4s               ;
+                   -webkit-transition: .4s;
+                   -moz-transition: .4s;
+                   -ms-transition: .4s;
+                   -o-transition: .4s;
+} 
+            }
+        }
+    }
+
+    .graduatesFromControl{
+        textarea{
+            resize: none;
+        }
+        input, textarea{
+            padding: 22px 20px;
+            border: 2px solid rgba(112, 112, 112,.3);
+            border-radius: 10px;
+            -webkit-border-radius: 10px;
+            -moz-border-radius: 10px;
+            -ms-border-radius: 10px;
+            -o-border-radius: 10px;
+}
+        
+    }
+    .graduatesBtn{
+        background: #46AAA8;
+        color: #FFFFFF;
+    }
+    .graduatesBtn:hover{
+        color: #FFFFFF;
+    }
+
+    // =========== Our Promise part & Experience start =====
+
+.peopleControlInExperience{
+    position: relative;
+    img{
+        position: absolute;
+        height: 70px;
+        top: -10%;
+        left: -3.5%;
+    }
+    small{
+        color: rgba(85, 101, 117,.7);
+    }
+}
+.extraBg{
+    background: #F7F9FB;
+}
+.extraBg2{
+    background: #FBFBFC;
+    p{
+        font-size: 16.2px;
+    }
+    .graduatesFromControl{
+        input{
+            background: #fff;
+        }
+        button{
+            font-weight: 500;
+        }
+    }
+}
+
+// =========== Reqruters Part =======
+
+.recruitersForm{
+    input, textarea{
+        border: 2px solid rgba(112, 112, 112,.2);
+    }
+    button{
+        font-weight: 500;
+    }
+}
+.workExperienceTxt{
+    font-size: 18px !important;
+}
+.checkText{
+    color: #556575;
+}
+.businessBannerLeft{
+   border-radius: 20px 0 0 20px;
+   -webkit-border-radius: 20px 0 0 20px;
+   -moz-border-radius: 20px 0 0 20px;
+   -ms-border-radius: 20px 0 0 20px;
+   -o-border-radius: 20px 0 0 20px;
+   background: #fff;
+   padding: 30px 0;
+    //  box-shadow: 0px 0px 30px #dbdbdb;
+}
+.businessBannerRight{
+    border-radius: 0 20px 20px 0;
+    -webkit-border-radius: 0 20px 20px 0;
+    -moz-border-radius: 0 20px 20px 0;
+    -ms-border-radius: 0 20px 20px 0;
+    -o-border-radius: 0 20px 20px 0;
+    background: #fff;
+    padding: 30px 0;
+    
+}
+.exception{
+  box-shadow: 0px 0px 30px #eeeeee;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+.businessWorkList{
+    li{
+        color: #556575 !important;
+    }
+}
+.programList{
+    li{
+        font-weight: 500;
+        line-height: 2.5;
+    }
+}
+.controlTikMark{
+    #tik{
+        background: #000;
+    }
+}

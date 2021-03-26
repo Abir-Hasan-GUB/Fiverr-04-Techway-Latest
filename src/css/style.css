@@ -1,0 +1,456 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  background: #FFF; }
+  body .extraPadding {
+    padding: 0 5.25% 0 5.25%; }
+  body a {
+    color: #000; }
+  body a:hover {
+    text-decoration: none;
+    color: #000; }
+  body h1 {
+    font-size: 29px;
+    font-weight: 600;
+    color: #000000;
+    line-height: 1.5; }
+  body h2 {
+    font-size: 25px;
+    font-weight: 600;
+    color: #000000; }
+  body h3 {
+    color: #000000;
+    font-weight: 600;
+    font-size: 18px; }
+  body h5 {
+    font-size: 24px;
+    color: #333333;
+    font-weight: 600; }
+  body h6 {
+    font-size: 20px;
+    color: #556575;
+    font-weight: 400; }
+  body .colorText {
+    color: #46AAA8; }
+  body p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #556575; }
+    body p img {
+      height: 20px !important; }
+  body .smallText {
+    font-size: 16px;
+    font-weight: 400; }
+  body .button {
+    font-size: 18px;
+    font-weight: 500;
+    color: #FFFFFF;
+    background: #16264B;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    text-transform: capitalize;
+    border: none;
+    padding: 7px 19px; }
+  body .button:hover {
+    color: #FFFFFF; }
+  body .btn:focus,
+  body .btn.focus {
+    outline: 0;
+    box-shadow: none; }
+  body .navbarButton {
+    background: #FFFFFF;
+    color: #333333; }
+  body .navbarButton:hover {
+    color: #333333; }
+
+#navBar {
+  background: #F7F9FB; }
+  #navBar .navbar-nav .nav-link {
+    padding: 0.5rem 1.5rem;
+    color: #000000;
+    font-weight: 500;
+    font-size: 18px;
+    text-transform: capitalize; }
+  #navBar .navbar-brand {
+    color: #1C1C1C;
+    font-weight: 500;
+    font-size: 28px; }
+
+.banner {
+  background: #F7F9FB; }
+  .banner .extraMarginbyPadding {
+    padding: 3rem 0; }
+  .banner .bannerLeft {
+    margin-left: 5rem; }
+    .banner .bannerLeft .banner-description {
+      color: #000000; }
+    .banner .bannerLeft input {
+      width: 61%;
+      background: #FFFF;
+      border: 1px solid #E7E7E7;
+      padding: 28px; }
+      .banner .bannerLeft input ::placeholder {
+        color: #333333;
+        font-size: 19px;
+        font-weight: 300; }
+    .banner .bannerLeft .bannerForm button {
+      width: 32%;
+      padding: 15px 0;
+      text-transform: uppercase;
+      background: #344B66;
+      color: #FFFFFF;
+      font-size: 16px;
+      font-weight: 500; }
+  .banner .topRate {
+    color: #181616;
+    font-weight: 400; }
+  .banner .bannerRight {
+    margin-left: 6rem; }
+
+#featuredIn {
+  background: #F7F9FB; }
+  #featuredIn .featured h5 {
+    color: #556575;
+    font-size: 18px; }
+  #featuredIn .feturedImg {
+    margin: 0 auto; }
+
+#premeumWork .card-deck .card {
+  border: none; }
+  #premeumWork .card-deck .card h3 {
+    font-size: 14px; }
+  #premeumWork .card-deck .card p {
+    font-size: 14px;
+    text-align: center; }
+
+#ourProgram .programElement {
+  margin: 0 auto;
+  width: 75%; }
+
+#ourProgram .element-separator {
+  width: 47.5%;
+  background: #344B66; }
+  #ourProgram .element-separator h5 {
+    font-size: 20px;
+    color: #fff; }
+
+#ourProgram .techwayLeft h2 {
+  line-height: 1.5; }
+
+.techwayRight {
+  position: relative; }
+
+.playBtn {
+  height: 100px;
+  width: 100px;
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  cursor: pointer; }
+  .playBtn i {
+    color: #46AAA8;
+    font-size: 45px;
+    line-height: 100px; }
+
+#successStory .story {
+  font-size: 18px;
+  color: #556575; }
+
+#successStory .story::before {
+  content: "";
+  background: url("../images/success-stories-bg.png");
+  background-repeat: no-repeat;
+  opacity: 0.1;
+  top: -10%;
+  left: 3.2%;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1; }
+
+#successStory .stufBrif {
+  color: #161616; }
+
+#successStory .card-deck .card {
+  box-shadow: 0px 0px 30px #dbdbdb;
+  border: 1px solid #dbdbdb; }
+  #successStory .card-deck .card .card-title {
+    font-size: 15px;
+    color: #333333; }
+    #successStory .card-deck .card .card-title i {
+      color: #46AAA8; }
+
+#employmentMarket h2 {
+  line-height: 1.7; }
+
+#employmentMarket .eployLeft {
+  box-shadow: 0px 0px 10px #dbdbdb; }
+  #employmentMarket .eployLeft h2 {
+    line-height: 1.7; }
+  #employmentMarket .eployLeft p {
+    line-height: 1.8; }
+
+#employmentMarket .eployRight p {
+  font-size: 15px;
+  color: #556575; }
+
+#employmentMarket .eployRight .eployBorder {
+  font-size: 16px;
+  color: #333333;
+  border-left: 5px solid #15BA8B; }
+
+#employmentMarket .employDownRight p {
+  font-size: 15px; }
+
+#employmentMarket .employDownRight ul div li {
+  font-size: 13.5px;
+  line-height: 2;
+  color: #000; }
+
+#employmentMarket .employDownRight ul div img {
+  height: 14px; }
+
+#employmentMarket .employDownRight .textMedium li {
+  font-weight: 500;
+  font-size: 12px; }
+
+.footer h1 {
+  font-size: 27px; }
+
+.footer .bannerForm .footerBtn {
+  background: #46AAA8 !important; }
+
+.footer .career {
+  font-size: 20px;
+  color: #010101; }
+
+.footer .footerRight ul div img {
+  height: 17px; }
+
+.footer .footerRight ul div li {
+  font-size: 17px;
+  line-height: 2.5;
+  color: #000;
+  font-weight: 500; }
+
+.footer .divSeparetor {
+  height: 1px;
+  width: 83%;
+  background: #707070;
+  opacity: 30%;
+  margin-left: 7.5%; }
+
+.footer .footerLink ul li {
+  font-size: 16px;
+  color: #000000;
+  font-weight: 400;
+  line-height: 2; }
+
+.footer .copyright small {
+  font-size: 14px;
+  font-weight: 500;
+  color: #000000; }
+
+.aboutUs1 {
+  background: #F7F9FB; }
+
+.aboutUsBannerDescription {
+  line-height: 1.8; }
+
+.afterPersentise {
+  width: 75%;
+  margin: 0 auto; }
+  .afterPersentise p {
+    color: #333333; }
+
+.persentage90 {
+  font-size: 55px; }
+
+.aboutGraduate {
+  font-size: 15px;
+  font-weight: 400; }
+
+.aboutUsList li {
+  font-size: 15px;
+  color: #556575; }
+
+.aboutUsList div img {
+  height: 15px; }
+
+.eployLeft {
+  max-height: 440px; }
+
+.aboutUsPeopleControl {
+  box-shadow: 0px 0px 30px #dbdbdb;
+  position: relative; }
+  .aboutUsPeopleControl .peopleNameControl {
+    position: relative; }
+  .aboutUsPeopleControl .peopleName::before {
+    content: "";
+    background: url("../images/smallQutation.png");
+    background-repeat: no-repeat;
+    opacity: 0.1;
+    top: 13%;
+    left: -10%;
+    bottom: -10%;
+    right: 0;
+    position: absolute;
+    z-index: 1; }
+  .aboutUsPeopleControl .peopleNameExperience::before {
+    content: "";
+    background: url("../images/smallQutation.png");
+    background-repeat: no-repeat;
+    opacity: 0.1;
+    top: 13%;
+    left: -3.5%;
+    bottom: -10%;
+    right: 0;
+    position: absolute;
+    z-index: 1; }
+  .aboutUsPeopleControl p {
+    font-size: 14px; }
+  .aboutUsPeopleControl h5 {
+    font-size: 14px;
+    font-weight: 700;
+    margin: 0; }
+  .aboutUsPeopleControl small {
+    font-size: 13px;
+    font-weight: 400;
+    margin: 0; }
+  .aboutUsPeopleControl .peopleOfAboutUs {
+    position: absolute;
+    top: -3%;
+    left: -10%;
+    height: 65px; }
+
+.aboutPeopleControlExtra {
+  box-shadow: 0px 0px 30px #f5f5f5; }
+
+.partnerRecruiters {
+  width: 80%;
+  margin: 0 auto; }
+  .partnerRecruiters .descriptionExtraReduce {
+    width: 75%;
+    margin: 0 auto; }
+
+.realValueCards .card-deck .card {
+  border: none;
+  box-shadow: 0px 0px 30px #eeeeee; }
+  .realValueCards .card-deck .card h5 {
+    font-size: 16px;
+    font-weight: 500; }
+  .realValueCards .card-deck .card p {
+    font-size: 15px;
+    line-height: 1.7;
+    padding-top: 15px; }
+
+.realValueCards .card-deck .card:hover .card-title {
+  color: #15BA8B;
+  transition: .4s;
+  -webkit-transition: .4s;
+  -moz-transition: .4s;
+  -ms-transition: .4s;
+  -o-transition: .4s; }
+
+.graduatesFromControl textarea {
+  resize: none; }
+
+.graduatesFromControl input, .graduatesFromControl textarea {
+  padding: 22px 20px;
+  border: 2px solid rgba(112, 112, 112, 0.3);
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px; }
+
+.graduatesBtn {
+  background: #46AAA8;
+  color: #FFFFFF; }
+
+.graduatesBtn:hover {
+  color: #FFFFFF; }
+
+.peopleControlInExperience {
+  position: relative; }
+  .peopleControlInExperience img {
+    position: absolute;
+    height: 70px;
+    top: -10%;
+    left: -3.5%; }
+  .peopleControlInExperience small {
+    color: rgba(85, 101, 117, 0.7); }
+
+.extraBg {
+  background: #F7F9FB; }
+
+.extraBg2 {
+  background: #FBFBFC; }
+  .extraBg2 p {
+    font-size: 16.2px; }
+  .extraBg2 .graduatesFromControl input {
+    background: #fff; }
+  .extraBg2 .graduatesFromControl button {
+    font-weight: 500; }
+
+.recruitersForm input, .recruitersForm textarea {
+  border: 2px solid rgba(112, 112, 112, 0.2); }
+
+.recruitersForm button {
+  font-weight: 500; }
+
+.workExperienceTxt {
+  font-size: 18px !important; }
+
+.checkText {
+  color: #556575; }
+
+.businessBannerLeft {
+  border-radius: 20px 0 0 20px;
+  -webkit-border-radius: 20px 0 0 20px;
+  -moz-border-radius: 20px 0 0 20px;
+  -ms-border-radius: 20px 0 0 20px;
+  -o-border-radius: 20px 0 0 20px;
+  background: #fff;
+  padding: 30px 0; }
+
+.businessBannerRight {
+  border-radius: 0 20px 20px 0;
+  -webkit-border-radius: 0 20px 20px 0;
+  -moz-border-radius: 0 20px 20px 0;
+  -ms-border-radius: 0 20px 20px 0;
+  -o-border-radius: 0 20px 20px 0;
+  background: #fff;
+  padding: 30px 0; }
+
+.exception {
+  box-shadow: 0px 0px 30px #eeeeee;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px; }
+
+.businessWorkList li {
+  color: #556575 !important; }
+
+.programList li {
+  font-weight: 500;
+  line-height: 2.5; }
+
+.controlTikMark #tik {
+  background: #000; }

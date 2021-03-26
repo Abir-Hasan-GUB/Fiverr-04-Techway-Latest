@@ -519,3 +519,24 @@ body {
   .mentroProfileCardBtnCtrl .cardButtonCtrl .buttons p {
     font-size: 13px !important;
     line-height: 24px !important; }
+
+.contactIconControl {
+  color: #fff; }
+  .contactIconControl i {
+    font-size: 50px;
+    color: #fff; }
+  .contactIconControl h3 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff; }
+  .contactIconControl p {
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff; }
+
+.contactUsBody {
+  background: #46AAA8; }
+
+.contactUsBtn {
+  font-weight: 500;
+  background: #46AAA8; }

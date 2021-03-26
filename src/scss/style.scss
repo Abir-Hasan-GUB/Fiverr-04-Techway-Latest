@@ -787,3 +787,29 @@ p{
         }
     }
 }
+// =============== Contact Us =================
+
+.contactIconControl{
+    color: #fff;
+    i{
+        font-size: 50px;
+        color: #fff;
+    }
+    h3{
+        font-size: 20px;
+        font-weight: 600;
+        color: #fff;
+    }
+    p{
+        font-size: 18px;
+        font-weight: 400;
+        color: #fff;
+    }
+}
+.contactUsBody{
+    background: #46AAA8;
+}
+.contactUsBtn{
+    font-weight: 500;
+    background: #46AAA8;
+}

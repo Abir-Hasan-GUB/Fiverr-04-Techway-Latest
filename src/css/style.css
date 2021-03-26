@@ -504,3 +504,18 @@ body {
 
 .cardButtonCtrl .buttons:last-child {
   margin-left: 1%; }
+
+.mentroProfileCardBtnCtrl .cardButtonCtrl .buttons {
+  background: #BFE2E1;
+  width: 49%;
+  float: left;
+  margin-bottom: 5px;
+  height: 40px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px; }
+  .mentroProfileCardBtnCtrl .cardButtonCtrl .buttons p {
+    font-size: 13px !important;
+    line-height: 24px !important; }

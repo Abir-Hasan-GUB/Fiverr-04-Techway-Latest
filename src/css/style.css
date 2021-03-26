@@ -454,3 +454,29 @@ body {
 
 .controlTikMark #tik {
   background: #000; }
+
+.fa-linkedin-in {
+  color: #0E76A8; }
+
+.wilfriedTxt {
+  font-size: 16px;
+  color: #556575; }
+
+.programDescription {
+  background: #fff;
+  box-shadow: 0px 0px 30px #eeeeee; }
+  .programDescription h5 {
+    font-size: 15px;
+    margin: 0;
+    color: #556575; }
+  .programDescription p {
+    margin-bottom: 0;
+    margin-top: 8px;
+    color: #333333; }
+
+.busnessLists div li {
+  color: #000 !important;
+  font-weight: 500; }
+
+.caseStudy .card-deck .card {
+  background: #fff; }

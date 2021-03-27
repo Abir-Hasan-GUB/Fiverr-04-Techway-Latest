@@ -184,6 +184,14 @@
 .graduatesCardBodyCtrl{
     padding: 0;
 }
+/* ============= Our Promise ================= */
+.realValueCards .card-deck .card h5 {
+    font-size: 14px;
+}
+.promiseCardRes{
+    padding: 0;
+}
+
   }
   
   /* =============Midium Devices ================= */
@@ -311,6 +319,13 @@
     font-size: 13px;
 }
 .graduatesCardBodyCtrl{
+    padding: 0;
+}
+/* ============= Our Promise ================= */
+.realValueCards .card-deck .card h5 {
+    font-size: 14px;
+}
+.promiseCardRes{
     padding: 0;
 }
   }

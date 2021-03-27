@@ -191,6 +191,10 @@
 .promiseCardRes{
     padding: 0;
 }
+/* =========== Reqrutes ================= */
+.recrutesCardRes{
+    padding: 0;
+}
 
   }
   
@@ -326,6 +330,10 @@
     font-size: 14px;
 }
 .promiseCardRes{
+    padding: 0;
+}
+/* =========== Reqrutes ================= */
+.recrutesCardRes{
     padding: 0;
 }
   }
@@ -521,5 +529,9 @@
         .peopleControlInExperience img {
             top: -9%;
             left: -4.5%;
+        }
+        /* ================== Recruiters ================= */
+        .extraBg2 p {
+            font-size: 13px;
         }
   }

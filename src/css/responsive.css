@@ -200,6 +200,11 @@
     font-size: 14px !important;
 }
 
+/* ==================== Mentors ================= */
+.cardButtonCtrl .buttons p {
+    line-height: 1.7;
+    font-size: 11px;
+}
   }
   
   /* =============Midium Devices ================= */
@@ -343,6 +348,13 @@
    /* ================== Business ANalyst ================= */
    .busAnlTxtCtrl{
     font-size: 14px !important;
+}
+
+/* ==================== Mentors ================= */
+.cardButtonCtrl .buttons p {
+    line-height: 1.7;
+    font-size: 11px;
+    
 }
   }
   

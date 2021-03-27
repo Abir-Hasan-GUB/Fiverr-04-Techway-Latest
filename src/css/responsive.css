@@ -430,6 +430,12 @@
 .aboutUsPeopleControl .peopleName::before{
     left: -6%;
 }
+ /* ================= Business Analysis-1 ================ */
+ .busH2Res{
+    font-size: 18px !important;
+    padding: 0 !important;
+    padding-bottom: 15px !important;
+}
 
   }
   
@@ -554,5 +560,11 @@
         }
         .busFooterTitle{
             font-size: 17px !important;
+        }
+        /* ================= Business Analysis-1 ================ */
+        .busH2Res{
+            font-size: 18px !important;
+            padding: 0 !important;
+            padding-bottom: 15px !important;
         }
   }

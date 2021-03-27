@@ -215,6 +215,13 @@
 .mentroProfileCardBtnCtrl .cardButtonCtrl .buttons p{
     font-size: 11.5px !important;
 }
+ /* ===================== Contact Us ================= */
+ .contactIconControl p {
+    font-size: 13px;
+}
+.contactIconControl i {
+    font-size: 38px;
+}
   }
   
   /* =============Midium Devices ================= */
@@ -372,6 +379,13 @@
 }
 .mentroProfileCardBtnCtrl .cardButtonCtrl .buttons p{
     font-size: 11.5px !important;
+}
+ /* ===================== Contact Us ================= */
+ .contactIconControl p {
+    font-size: 13px;
+}
+.contactIconControl i {
+    font-size: 38px;
 }
   }
   
@@ -599,5 +613,15 @@
         /* =================== Mentor profile ================= */
         .mentroProfileCardBtnCtrl .cardButtonCtrl .buttons{
             height: 57px;
+        }
+        /* ===================== Contact Us ================= */
+        .contactIconControl p {
+            font-size: 13px;
+        }
+        .contactIconControl i {
+            font-size: 38px;
+        }
+        .contactH1ctrl{
+            font-size: 20px !important;
         }
   }

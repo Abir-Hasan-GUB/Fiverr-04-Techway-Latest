@@ -164,19 +164,32 @@
 .footer .copyright small {
     font-size: 12px;
 }
+/* ================ About Us ================= */
+#employmentMarket .employDownRight p {
+    font-size: 13px;
+}
+#employmentMarket .eployRight p {
+    font-size: 13px;
+}
+.afterPersentise {
+    width: 92%;
+}
+.eployLeft {
+    max-height: 560px;
+}
   }
   
   /* =============Midium Devices ================= */
   
   @media only screen and (max-width: 768px) {
       body h1{
-          font-size: 17px;
+          font-size: 17px !important;
       }
       body p{
           font-size: 14px;
       }
       body h2{
-          font-size: 17px;
+          font-size: 17px !important;
       }
    /* =========== Nav Bar =========== */
    .navbar-nav .nav-link{
@@ -275,6 +288,13 @@
 .footer .copyright small {
     font-size: 12px;
 }
+/* ================= About Us ================= */
+#employmentMarket .employDownRight p {
+    font-size: 13px;
+}
+#employmentMarket .eployRight p {
+    font-size: 13px;
+}
   }
   
   /* =============Small Devices ================= */
@@ -287,8 +307,11 @@
         font-size: 28px;
     }
     body h2{
-        font-size: 22px;
+        font-size: 22px !important;
         text-align: center;
+    }
+    .aboutH1{
+        font-size: 22px;
     }
  /* =========== Nav Bar =========== */
  .navbar-nav .nav-link{
@@ -352,6 +375,11 @@
 }
 .footer .extraPadding{
     padding: 0;
+}
+
+/* ========== About Us Page ================= */
+.aboutUsPeopleControl .peopleName::before{
+    left: -6%;
 }
 
   }

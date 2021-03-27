@@ -49,7 +49,10 @@
     .footer .career {
         font-size: 15px;
     }
-
+ /* =================== Mentor profile ================= */
+ .mentroProfileCardBtnCtrl .cardButtonCtrl .buttons{
+    height: 57px;
+}
   }
   
   /* =================== Large Screen ===================== */
@@ -205,6 +208,13 @@
     line-height: 1.7;
     font-size: 11px;
 }
+ /* =================== Mentor profile ================= */
+ .mentroProfileCardBtnCtrl .cardButtonCtrl .buttons{
+    height: 57px;
+}
+.mentroProfileCardBtnCtrl .cardButtonCtrl .buttons p{
+    font-size: 11.5px !important;
+}
   }
   
   /* =============Midium Devices ================= */
@@ -355,6 +365,13 @@
     line-height: 1.7;
     font-size: 11px;
     
+}
+ /* =================== Mentor profile ================= */
+ .mentroProfileCardBtnCtrl .cardButtonCtrl .buttons{
+    height: 57px;
+}
+.mentroProfileCardBtnCtrl .cardButtonCtrl .buttons p{
+    font-size: 11.5px !important;
 }
   }
   
@@ -578,5 +595,9 @@
             font-size: 18px !important;
             padding: 0 !important;
             padding-bottom: 15px !important;
+        }
+        /* =================== Mentor profile ================= */
+        .mentroProfileCardBtnCtrl .cardButtonCtrl .buttons{
+            height: 57px;
         }
   }

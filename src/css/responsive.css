@@ -329,7 +329,7 @@
     font-size: 17px;
 }
 .footer .bannerLeft {
-    margin-left: 0;
+    margin-left: 0 !important;
 }
 .footer .career {
     font-size: 15px;
@@ -435,7 +435,7 @@
             font-size: 17px;
         }
         .footer .bannerLeft {
-            margin-left: 0;
+            margin-left: 0 !important;
         }
         .footer .career {
             font-size: 15px;

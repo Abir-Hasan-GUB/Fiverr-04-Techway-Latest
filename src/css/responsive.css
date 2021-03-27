@@ -1,627 +1,772 @@
 /* ================== Extra Large Screen =============== */
 @media only screen and (max-width: 1024px) {
-    body h1{
+    body h1 {
         font-size: 24px;
     }
-    body p{
+
+    body p {
         font-size: 14px;
     }
+
     body h2 {
         font-size: 22px;
     }
 
     /* =============== Banner ============= */
-    #banner .bannerLeft{
+    #banner .bannerLeft {
         margin-left: 5rem;
     }
-    #banner .bannerRight{
+
+    #banner .bannerRight {
         margin-left: 4rem;
     }
+
     #banner .bannerLeft .bannerForm button {
         padding: 11px 0;
         font-size: 11px;
         width: 30%;
     }
+
     #banner .bannerLeft input {
         padding: 21px;
         width: 58%;
     }
 
     /* ================ Footer ================= */
-    #footer .bannerLeft{
+    #footer .bannerLeft {
         margin-left: 5rem;
     }
-    #footer .bannerRight{
+
+    #footer .bannerRight {
         margin-left: 4rem;
     }
+
     #footer .bannerLeft .bannerForm button {
         padding: 11px 0;
         font-size: 11px;
         width: 30%;
     }
+
     #footer .bannerLeft input {
         padding: 21px;
         width: 58%;
     }
+
     .footer h1 {
         font-size: 22px;
     }
+
     .footer .career {
         font-size: 15px;
     }
- /* =================== Mentor profile ================= */
- .mentroProfileCardBtnCtrl .cardButtonCtrl .buttons{
-    height: 57px;
+
+    /* =================== Mentor profile ================= */
+    .mentroProfileCardBtnCtrl .cardButtonCtrl .buttons {
+        height: 57px;
+    }
 }
-  }
-  
-  /* =================== Large Screen ===================== */
-  @media only screen and (max-width: 980px) {
-    body h1{
+
+/* =================== Large Screen ===================== */
+@media only screen and (max-width: 980px) {
+    body h1 {
         font-size: 17px;
     }
-    body h2{
+
+    body h2 {
         font-size: 16px !important;
     }
-    body p{
+
+    body p {
         font-size: 14px;
     }
-   /* =========== Nav Bar =========== */
-   .navbar-nav .nav-link{
-    padding: 0.5rem 0 !important;
-}
-.navbar-brand{
-    color: #1C1C1C;
-    font-weight: 700;
-    font-size: 22px !important;
-}
 
-/* =============== Banner ================= */
+    /* =========== Nav Bar =========== */
+    .navbar-nav .nav-link {
+        padding: 0.5rem 0 !important;
+    }
 
-#banner .bannerLeft{
-    margin-left: 5rem;
-}
-#banner .bannerRight{
-    margin-left: 0;
-}
-#banner .bannerLeft .bannerForm button {
-    padding: 11px 0;
-    font-size: 11px;
-    width: 30%;
-}
-#banner .bannerLeft input {
-    padding: 21px;
-    width: 58%;
-}
-#banner .bannerLeft input::placeholder {
-    font-size: 14px;
-}
-/* =============== Our Program Start ========= */
-#ourProgram .programElement{
-    width: 100%;
-}
-#ourProgram .element-separator h5{
-    font-size: 15px;
-}
-.programResDevice{
-    margin-bottom: 15px !important;
-}
-#ourProgram .playBtn{
-    top: 30%;
-    height: 75px;
-    width: 75px;
-}
-#ourProgram .playBtn i{
-    font-size: 25px;
-    line-height: 75px;
-}
-/* ============= success Story =========== */
-#successStory .stufBrif{
-    font-size: 17px;
-}
-#successStory .story::before{
-    left: 5%;
-}
-  /* ================ Empolye Market ============== */
-#employmentMarket .eployRight p {
-    font-size: 12px;
-}
-#employmentMarket .eployRight .eployBorder {
-    font-size: 13px;
-}
-.employDownRight h2{
-    font-size: 15px;
-}
-/* ================ Footer ================= */
-#footer .bannerLeft{
-    margin-left: 5rem;
-}
-#footer .bannerRight{
-    margin-left: 0;
-}
-#footer .bannerLeft .bannerForm button {
-    padding: 11px 0;
-    font-size: 11px;
-    width: 30%;
-}
-#footer .bannerLeft input {
-    padding: 21px;
-    width: 58%;
-}
-#footer .bannerLeft input::placeholder {
-    font-size: 14px;
-}
+    .navbar-brand {
+        color: #1C1C1C;
+        font-weight: 700;
+        font-size: 22px !important;
+    }
 
-.footer h1 {
-    font-size: 17px;
-}
-.footer .footerRight ul div li {
-    font-size: 14px;
-}
-.footer .career {
-    font-size: 14px;
-}
-.footer .footerLink ul li {
-    font-size: 12px;
-}
-.footer .copyright small {
-    font-size: 12px;
-}
-/* ================ About Us ================= */
-#employmentMarket .employDownRight p {
-    font-size: 13px;
-}
-#employmentMarket .eployRight p {
-    font-size: 13px;
-}
-.afterPersentise {
-    width: 92%;
-}
-.eployLeft {
-    max-height: 560px;
-}
-/* ============== Why hire our Graduates =================  */
-.realValueCards .card-deck .card p {
-    font-size: 13px;
-}
-.graduatesCardBodyCtrl{
-    padding: 0;
-}
-/* ============= Our Promise ================= */
-.realValueCards .card-deck .card h5 {
-    font-size: 14px;
-}
-.promiseCardRes{
-    padding: 0;
-}
-/* =========== Reqrutes ================= */
-.recrutesCardRes{
-    padding: 0;
-}
- /* ================== Business ANalyst ================= */
- .busAnlTxtCtrl{
-    font-size: 14px !important;
-}
+    /* =============== Banner ================= */
 
-/* ==================== Mentors ================= */
-.cardButtonCtrl .buttons p {
-    line-height: 1.7;
-    font-size: 11px;
-}
- /* =================== Mentor profile ================= */
- .mentroProfileCardBtnCtrl .cardButtonCtrl .buttons{
-    height: 57px;
-}
-.mentroProfileCardBtnCtrl .cardButtonCtrl .buttons p{
-    font-size: 11.5px !important;
-}
- /* ===================== Contact Us ================= */
- .contactIconControl p {
-    font-size: 13px;
-}
-.contactIconControl i {
-    font-size: 38px;
-}
-  }
-  
-  /* =============Midium Devices ================= */
-  
-  @media only screen and (max-width: 768px) {
-      body h1{
-          font-size: 17px !important;
-      }
-      body p{
-          font-size: 14px;
-      }
-      body h2{
-          font-size: 17px !important;
-      }
-      body .button{
-          font-size: 16px;
-      }
-      
-   /* =========== Nav Bar =========== */
-   .navbar-nav .nav-link{
-    padding: 0.5rem 0 !important;
-}
-.navbar-brand{
-    color: #1C1C1C;
-    font-weight: 700;
-    font-size: 18px !important;
-}
+    #banner .bannerLeft {
+        margin-left: 5rem;
+    }
 
-/* ===============Banners ================= */
-#banner .bannerLeft{
-    margin-left: 5rem;
-}
-#banner .bannerRight{
-    margin-left: 0;
-}
-#banner .bannerLeft .bannerForm button {
-    padding: 11px 0;
-    font-size: 11px;
-    width: 30%;
-}
-#banner .bannerLeft input {
-    padding: 21px;
-    width: 58%;
-}
-#banner .bannerLeft input::placeholder {
-    font-size: 14px;
-}
-/* =============== Our Program Start ========= */
-#ourProgram .programElement{
-    width: 100%;
-}
-#ourProgram .element-separator h5{
-    font-size: 15px;
-}
-.programResDevice{
-    margin-bottom: 15px !important;
-}
-#ourProgram .playBtn{
-    top: 30%;
-    height: 75px;
-    width: 75px;
-}
-#ourProgram .playBtn i{
-    font-size: 25px;
-    line-height: 75px;
-}
- /* ============= success Story =========== */
-#successStory .stufBrif{
-    font-size: 17px;
-}
-#successStory .story::before{
-    left: 5%;
-}
-/* ================ Empolye Market ============== */
-#employmentMarket .eployRight p {
-    font-size: 15px;
-}
-#employmentMarket .eployRight .eployBorder {
-    font-size: 13px;
-}
+    #banner .bannerRight {
+        margin-left: 0;
+    }
 
-/* ================= Footer ============= */
-#footer .bannerLeft{
-    margin-left: 5rem;
-}
-#footer .bannerRight{
-    margin-left: 0;
-}
-#footer .bannerLeft .bannerForm button {
-    padding: 11px 0;
-    font-size: 11px;
-    width: 30%;
-}
-#footer .bannerLeft input {
-    padding: 21px;
-    width: 58%;
-}
-#footer .bannerLeft input::placeholder {
-    font-size: 14px;
-}
-.footer h1 {
-    font-size: 17px;
-}
-.footer .footerRight ul div li {
-    font-size: 14px;
-}
-.footer .career {
-    font-size: 14px;
-}
-.footer .footerLink ul li {
-    font-size: 12px;
-}
-.footer .copyright small {
-    font-size: 12px;
-}
-/* ================= About Us ================= */
-#employmentMarket .employDownRight p {
-    font-size: 13px;
-}
-#employmentMarket .eployRight p {
-    font-size: 13px;
-}
-/* ============== Why hire our Graduates =================  */
-.realValueCards .card-deck .card p {
-    font-size: 13px;
-}
-.graduatesCardBodyCtrl{
-    padding: 0;
-}
-/* ============= Our Promise ================= */
-.realValueCards .card-deck .card h5 {
-    font-size: 14px;
-}
-.promiseCardRes{
-    padding: 0;
-}
-/* =========== Reqrutes ================= */
-.recrutesCardRes{
-    padding: 0;
-}
-   /* ================== Business ANalyst ================= */
-   .busAnlTxtCtrl{
-    font-size: 14px !important;
-}
+    #banner .bannerLeft .bannerForm button {
+        padding: 11px 0;
+        font-size: 11px;
+        width: 30%;
+    }
 
-/* ==================== Mentors ================= */
-.cardButtonCtrl .buttons p {
-    line-height: 1.7;
-    font-size: 11px;
-    
-}
- /* =================== Mentor profile ================= */
- .mentroProfileCardBtnCtrl .cardButtonCtrl .buttons{
-    height: 57px;
-}
-.mentroProfileCardBtnCtrl .cardButtonCtrl .buttons p{
-    font-size: 11.5px !important;
-}
- /* ===================== Contact Us ================= */
- .contactIconControl p {
-    font-size: 13px;
-}
-.contactIconControl i {
-    font-size: 38px;
-}
-  }
-  
-  /* =============Small Devices ================= */
-  
-  @media only screen and (max-width: 480px) {
-    body p{
+    #banner .bannerLeft input {
+        padding: 21px;
+        width: 58%;
+    }
+
+    #banner .bannerLeft input::placeholder {
+        font-size: 14px;
+    }
+
+    /* =============== Our Program Start ========= */
+    #ourProgram .programElement {
+        width: 100%;
+    }
+
+    #ourProgram .element-separator h5 {
         font-size: 15px;
     }
-    body h1{
+
+    .programResDevice {
+        margin-bottom: 15px !important;
+    }
+
+    #ourProgram .playBtn {
+        top: 30%;
+        height: 75px;
+        width: 75px;
+    }
+
+    #ourProgram .playBtn i {
+        font-size: 25px;
+        line-height: 75px;
+    }
+
+    /* ============= success Story =========== */
+    #successStory .stufBrif {
+        font-size: 17px;
+    }
+
+    #successStory .story::before {
+        left: 5%;
+    }
+
+    /* ================ Empolye Market ============== */
+    #employmentMarket .eployRight p {
+        font-size: 12px;
+    }
+
+    #employmentMarket .eployRight .eployBorder {
+        font-size: 13px;
+    }
+
+    .employDownRight h2 {
+        font-size: 15px;
+    }
+
+    /* ================ Footer ================= */
+    #footer .bannerLeft {
+        margin-left: 5rem;
+    }
+
+    #footer .bannerRight {
+        margin-left: 0;
+    }
+
+    #footer .bannerLeft .bannerForm button {
+        padding: 11px 0;
+        font-size: 11px;
+        width: 30%;
+    }
+
+    #footer .bannerLeft input {
+        padding: 21px;
+        width: 58%;
+    }
+
+    #footer .bannerLeft input::placeholder {
+        font-size: 14px;
+    }
+
+    .footer h1 {
+        font-size: 17px;
+    }
+
+    .footer .footerRight ul div li {
+        font-size: 14px;
+    }
+
+    .footer .career {
+        font-size: 14px;
+    }
+
+    .footer .footerLink ul li {
+        font-size: 12px;
+    }
+
+    .footer .copyright small {
+        font-size: 12px;
+    }
+
+    /* ================ About Us ================= */
+    #employmentMarket .employDownRight p {
+        font-size: 13px;
+    }
+
+    #employmentMarket .eployRight p {
+        font-size: 13px;
+    }
+
+    .afterPersentise {
+        width: 92%;
+    }
+
+    .eployLeft {
+        max-height: 560px;
+    }
+
+    /* ============== Why hire our Graduates =================  */
+    .realValueCards .card-deck .card p {
+        font-size: 13px;
+    }
+
+    .graduatesCardBodyCtrl {
+        padding: 0;
+    }
+
+    /* ============= Our Promise ================= */
+    .realValueCards .card-deck .card h5 {
+        font-size: 14px;
+    }
+
+    .promiseCardRes {
+        padding: 0;
+    }
+
+    /* =========== Reqrutes ================= */
+    .recrutesCardRes {
+        padding: 0;
+    }
+
+    /* ================== Business ANalyst ================= */
+    .busAnlTxtCtrl {
+        font-size: 14px !important;
+    }
+
+    /* ==================== Mentors ================= */
+    .cardButtonCtrl .buttons p {
+        line-height: 1.7;
+        font-size: 11px;
+    }
+
+    /* =================== Mentor profile ================= */
+    .mentroProfileCardBtnCtrl .cardButtonCtrl .buttons {
+        height: 57px;
+    }
+
+    .mentroProfileCardBtnCtrl .cardButtonCtrl .buttons p {
+        font-size: 11.5px !important;
+    }
+
+    /* ===================== Contact Us ================= */
+    .contactIconControl p {
+        font-size: 13px;
+    }
+
+    .contactIconControl i {
+        font-size: 38px;
+    }
+}
+
+/* =============Midium Devices ================= */
+
+@media only screen and (max-width: 768px) {
+    body h1 {
+        font-size: 17px !important;
+    }
+
+    body p {
+        font-size: 14px;
+    }
+
+    body h2 {
+        font-size: 17px !important;
+    }
+
+    body .button {
+        font-size: 16px;
+    }
+
+    /* =========== Nav Bar =========== */
+    .navbar-nav .nav-link {
+        padding: 0.5rem 0 !important;
+    }
+
+    .navbar-brand {
+        color: #1C1C1C;
+        font-weight: 700;
+        font-size: 18px !important;
+    }
+
+    /* ===============Banners ================= */
+    #banner .bannerLeft {
+        margin-left: 5rem;
+    }
+
+    #banner .bannerRight {
+        margin-left: 0;
+    }
+
+    #banner .bannerLeft .bannerForm button {
+        padding: 11px 0;
+        font-size: 11px;
+        width: 30%;
+    }
+
+    #banner .bannerLeft input {
+        padding: 21px;
+        width: 58%;
+    }
+
+    #banner .bannerLeft input::placeholder {
+        font-size: 14px;
+    }
+
+    /* =============== Our Program Start ========= */
+    #ourProgram .programElement {
+        width: 100%;
+    }
+
+    #ourProgram .element-separator h5 {
+        font-size: 15px;
+    }
+
+    .programResDevice {
+        margin-bottom: 15px !important;
+    }
+
+    #ourProgram .playBtn {
+        top: 30%;
+        height: 75px;
+        width: 75px;
+    }
+
+    #ourProgram .playBtn i {
+        font-size: 25px;
+        line-height: 75px;
+    }
+
+    /* ============= success Story =========== */
+    #successStory .stufBrif {
+        font-size: 17px;
+    }
+
+    #successStory .story::before {
+        left: 5%;
+    }
+
+    /* ================ Empolye Market ============== */
+    #employmentMarket .eployRight p {
+        font-size: 15px;
+    }
+
+    #employmentMarket .eployRight .eployBorder {
+        font-size: 13px;
+    }
+
+    /* ================= Footer ============= */
+    #footer .bannerLeft {
+        margin-left: 5rem;
+    }
+
+    #footer .bannerRight {
+        margin-left: 0;
+    }
+
+    #footer .bannerLeft .bannerForm button {
+        padding: 11px 0;
+        font-size: 11px;
+        width: 30%;
+    }
+
+    #footer .bannerLeft input {
+        padding: 21px;
+        width: 58%;
+    }
+
+    #footer .bannerLeft input::placeholder {
+        font-size: 14px;
+    }
+
+    .footer h1 {
+        font-size: 17px;
+    }
+
+    .footer .footerRight ul div li {
+        font-size: 14px;
+    }
+
+    .footer .career {
+        font-size: 14px;
+    }
+
+    .footer .footerLink ul li {
+        font-size: 12px;
+    }
+
+    .footer .copyright small {
+        font-size: 12px;
+    }
+
+    /* ================= About Us ================= */
+    #employmentMarket .employDownRight p {
+        font-size: 13px;
+    }
+
+    #employmentMarket .eployRight p {
+        font-size: 13px;
+    }
+
+    /* ============== Why hire our Graduates =================  */
+    .realValueCards .card-deck .card p {
+        font-size: 13px;
+    }
+
+    .graduatesCardBodyCtrl {
+        padding: 0;
+    }
+
+    /* ============= Our Promise ================= */
+    .realValueCards .card-deck .card h5 {
+        font-size: 14px;
+    }
+
+    .promiseCardRes {
+        padding: 0;
+    }
+
+    /* =========== Reqrutes ================= */
+    .recrutesCardRes {
+        padding: 0;
+    }
+
+    /* ================== Business ANalyst ================= */
+    .busAnlTxtCtrl {
+        font-size: 14px !important;
+    }
+
+    /* ==================== Mentors ================= */
+    .cardButtonCtrl .buttons p {
+        line-height: 1.7;
+        font-size: 11px;
+
+    }
+
+    /* =================== Mentor profile ================= */
+    .mentroProfileCardBtnCtrl .cardButtonCtrl .buttons {
+        height: 57px;
+    }
+
+    .mentroProfileCardBtnCtrl .cardButtonCtrl .buttons p {
+        font-size: 11.5px !important;
+    }
+
+    /* ===================== Contact Us ================= */
+    .contactIconControl p {
+        font-size: 13px;
+    }
+
+    .contactIconControl i {
+        font-size: 38px;
+    }
+}
+
+/* =============Small Devices ================= */
+
+@media only screen and (max-width: 480px) {
+    body p {
+        font-size: 15px;
+    }
+
+    body h1 {
         font-size: 28px;
     }
-    body h2{
+
+    body h2 {
         font-size: 22px !important;
         text-align: center;
     }
-    .aboutH1{
+
+    .aboutH1 {
         font-size: 22px;
     }
- /* =========== Nav Bar =========== */
- .navbar-nav .nav-link{
-    padding: 0.5rem 0 !important;
-}
-.navbar-brand{
-    color: #1C1C1C;
-    font-weight: 700;
-    font-size: 18px !important;
+
+    /* =========== Nav Bar =========== */
+    .navbar-nav .nav-link {
+        padding: 0.5rem 0 !important;
+    }
+
+    .navbar-brand {
+        color: #1C1C1C;
+        font-weight: 700;
+        font-size: 18px !important;
+    }
+
+    /* ===============Banner ================= */
+    #banner .bannerLeft {
+        margin-left: 0;
+    }
+
+    #banner .bannerRight {
+        margin-left: 0;
+    }
+
+    #banner .bannerLeft .bannerForm button {
+        padding: 11px 0;
+        font-size: 11px;
+    }
+
+    #banner .bannerLeft input {
+        padding: 21px;
+    }
+
+    /* =============== Our Program Start ========= */
+    #ourProgram .programElement {
+        width: 100%;
+    }
+
+    #ourProgram .element-separator h5 {
+        font-size: 15px;
+    }
+
+    .programResDevice {
+        margin-bottom: 15px !important;
+    }
+
+    /* ============== Footer ========= */
+    .footer h1 {
+        font-size: 17px;
+    }
+
+    .footer .bannerLeft {
+        margin-left: 0 !important;
+    }
+
+    .footer .career {
+        font-size: 15px;
+    }
+
+    .footer .bannerRight {
+        margin-left: 0;
+    }
+
+    .footer .bannerLeft .bannerForm button {
+        padding: 16px 0;
+        font-size: 12px;
+    }
+
+    .footer .copyright small {
+        font-size: 10px;
+    }
+
+    .footer .footerRight ul div li {
+        font-size: 14px !important;
+    }
+
+    .footer .footerLink ul li {
+        font-size: 14px;
+    }
+
+    .footer .extraPadding {
+        padding: 0;
+    }
+
+    /* ========== About Us Page ================= */
+    .aboutUsPeopleControl .peopleName::before {
+        left: -6%;
+    }
+
+    /* ================= Business Analysis-1 ================ */
+    .busH2Res {
+        font-size: 18px !important;
+        padding: 0 !important;
+        padding-bottom: 15px !important;
+    }
+
 }
 
-/* ===============Banner ================= */
-#banner .bannerLeft{
-    margin-left: 0;
-}
-#banner .bannerRight{
-    margin-left: 0;
-}
-#banner .bannerLeft .bannerForm button {
-    padding: 11px 0;
-    font-size: 11px;
-}
-#banner .bannerLeft input {
-    padding: 21px;
-}
-/* =============== Our Program Start ========= */
-#ourProgram .programElement{
-    width: 100%;
-}
-#ourProgram .element-separator h5{
-    font-size: 15px;
-}
-.programResDevice{
-    margin-bottom: 15px !important;
-}
- /* ============== Footer ========= */
- .footer h1 {
-    font-size: 17px;
-}
-.footer .bannerLeft {
-    margin-left: 0 !important;
-}
-.footer .career {
-    font-size: 15px;
-}
-.footer .bannerRight {
-    margin-left: 0;
-}
-.footer .bannerLeft .bannerForm button {
-    padding: 16px 0;
-    font-size: 12px;
-}
-.footer .copyright small {
-    font-size: 10px;
-}
-.footer .footerRight ul div li {
-    font-size: 14px !important;
-}
-.footer .footerLink ul li{
-    font-size: 14px;
-}
-.footer .extraPadding{
-    padding: 0;
-}
 
-/* ========== About Us Page ================= */
-.aboutUsPeopleControl .peopleName::before{
-    left: -6%;
+/* ============= Extra Small Devices ================= */
+
+@media only screen and (max-width: 320px) {
+    body p {
+        font-size: 15px;
+    }
+
+    body h1 {
+        font-size: 19px !important;
+    }
+
+    body h2 {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    /* =========== Nav Bar =========== */
+    .navbar-nav .nav-link {
+        padding: 0.5rem 0 !important;
+    }
+
+    .navbar-brand {
+        color: #1C1C1C;
+        font-weight: 700;
+        font-size: 18px !important;
+    }
+
+    #banner .bannerLeft {
+        margin-left: 0;
+    }
+
+    #banner .bannerRight {
+        margin-left: 0;
+    }
+
+    #banner .bannerLeft .bannerForm button {
+        padding: 11px 0;
+        font-size: 11px;
+    }
+
+    #banner .bannerLeft input {
+        padding: 21px;
+    }
+
+    /* ============= featuredIn Start =========== */
+    #featuredIn .feturedImg img {
+        /* width: 115px; */
+    }
+
+    /* ==============Our Program Start ========= */
+    .programElement {
+        display: block !important;
+    }
+
+    #ourProgram .programElement {
+        width: 100%;
+    }
+
+    #ourProgram .element-separator {
+        width: 100%;
+    }
+
+    #ourProgram .element-separator h5 {
+        font-size: 15px;
+    }
+
+    #ourProgram .playBtn {
+        top: 50%;
+    }
+
+    /* ============= success Story =========== */
+    #successStory .story::before {
+        top: 0;
+    }
+
+    #successStory .stufBrif {
+        font-size: 17px;
+    }
+
+    /* ============== employment market ============ */
+    .employWidthCtrl {
+        width: 100% !important;
+    }
+
+    #employmentMarket .eployRight .eployBorder {
+        border: none;
+        font-size: 15px;
+    }
+
+    /* ============== Footer ========= */
+    .footer h1 {
+        font-size: 17px;
+    }
+
+    .footer .bannerLeft {
+        margin-left: 0 !important;
+    }
+
+    .footer .career {
+        font-size: 15px;
+    }
+
+    .footer .bannerRight {
+        margin-left: 0;
+    }
+
+    .footer .bannerLeft .bannerForm button {
+        padding: 16px 0;
+        font-size: 12px;
+    }
+
+    .footer .copyright small {
+        font-size: 10px;
+    }
+
+    .footer .footerRight ul div li {
+        font-size: 14px !important;
+    }
+
+    .footer .footerLink ul li {
+        font-size: 14px;
+    }
+
+    /* ================ Employer Experience ================= */
+    .peopleControlInExperience img {
+        top: -9%;
+        left: -4.5%;
+    }
+
+    /* ================== Recruiters ================= */
+    .extraBg2 p {
+        font-size: 13px;
+    }
+
+    /* ================== Business ANalyst ================= */
+    .busAnlTxtCtrl {
+        font-size: 15px !important;
+    }
+
+    .desExRedResCtrl {
+        width: 100% !important;
+    }
+
+    .busAnlFrm {
+        display: block;
+    }
+
+    .busFooterTitle {
+        font-size: 17px !important;
+    }
+
+    /* ================= Business Analysis-1 ================ */
+    .busH2Res {
+        font-size: 18px !important;
+        padding: 0 !important;
+        padding-bottom: 15px !important;
+    }
+
+    /* =================== Mentor profile ================= */
+    .mentroProfileCardBtnCtrl .cardButtonCtrl .buttons {
+        height: 57px;
+    }
+
+    /* ===================== Contact Us ================= */
+    .contactIconControl p {
+        font-size: 13px;
+    }
+
+    .contactIconControl i {
+        font-size: 38px;
+    }
+
+    .contactH1ctrl {
+        font-size: 20px !important;
+    }
 }
- /* ================= Business Analysis-1 ================ */
- .busH2Res{
-    font-size: 18px !important;
-    padding: 0 !important;
-    padding-bottom: 15px !important;
-}
-
-  }
-  
-  
-  /* ============= Extra Small Devices ================= */
-  
-  @media only screen and (max-width: 320px) {
-      body p{
-          font-size: 15px;
-      }
-      body h1{
-          font-size: 19px !important;
-      }
-      body h2{
-          font-size: 18px;
-          text-align: center;
-      }
-
-        /* =========== Nav Bar =========== */
-        .navbar-nav .nav-link{
-            padding: 0.5rem 0 !important;
-        }
-        .navbar-brand{
-            color: #1C1C1C;
-            font-weight: 700;
-            font-size: 18px !important;
-        }
-        #banner .bannerLeft{
-            margin-left: 0;
-        }
-        #banner .bannerRight{
-            margin-left: 0;
-        }
-        #banner .bannerLeft .bannerForm button {
-            padding: 11px 0;
-            font-size: 11px;
-        }
-        #banner .bannerLeft input {
-            padding: 21px;
-        }
-
-        /* ============= featuredIn Start =========== */
-        #featuredIn .feturedImg img {
-            /* width: 115px; */
-        }
-
-        /* ==============Our Program Start ========= */
-        .programElement{
-            display: block !important;
-        }
-        #ourProgram .programElement{
-            width: 100%;
-        }
-        #ourProgram .element-separator{
-            width: 100%;
-        }
-        #ourProgram .element-separator h5 {
-            font-size: 15px;
-        }
-        #ourProgram .playBtn{
-            top: 50%;
-        }
-        /* ============= success Story =========== */
-        #successStory .story::before{
-            top: 0;
-        }
-        #successStory .stufBrif{
-            font-size: 17px;
-        }
-        /* ============== employment market ============ */
-        .employWidthCtrl{
-            width: 100% !important;
-        }
-        #employmentMarket .eployRight .eployBorder{
-            border: none;
-            font-size: 15px;
-        }
-        /* ============== Footer ========= */
-        .footer h1 {
-            font-size: 17px;
-        }
-        .footer .bannerLeft {
-            margin-left: 0 !important;
-        }
-        .footer .career {
-            font-size: 15px;
-        }
-        .footer .bannerRight {
-            margin-left: 0;
-        }
-        .footer .bannerLeft .bannerForm button {
-            padding: 16px 0;
-            font-size: 12px;
-        }
-        .footer .copyright small {
-            font-size: 10px;
-        }
-        .footer .footerRight ul div li {
-            font-size: 14px !important;
-        }
-        .footer .footerLink ul li{
-            font-size: 14px;
-        }
-        /* ================ Employer Experience ================= */
-        .peopleControlInExperience img {
-            top: -9%;
-            left: -4.5%;
-        }
-        /* ================== Recruiters ================= */
-        .extraBg2 p {
-            font-size: 13px;
-        }
-        /* ================== Business ANalyst ================= */
-        .busAnlTxtCtrl{
-            font-size: 15px !important;
-        }
-        .desExRedResCtrl{
-            width: 100% !important;
-        }
-        .busAnlFrm{
-            display: block;
-        }
-        .busFooterTitle{
-            font-size: 17px !important;
-        }
-        /* ================= Business Analysis-1 ================ */
-        .busH2Res{
-            font-size: 18px !important;
-            padding: 0 !important;
-            padding-bottom: 15px !important;
-        }
-        /* =================== Mentor profile ================= */
-        .mentroProfileCardBtnCtrl .cardButtonCtrl .buttons{
-            height: 57px;
-        }
-        /* ===================== Contact Us ================= */
-        .contactIconControl p {
-            font-size: 13px;
-        }
-        .contactIconControl i {
-            font-size: 38px;
-        }
-        .contactH1ctrl{
-            font-size: 20px !important;
-        }
-  }

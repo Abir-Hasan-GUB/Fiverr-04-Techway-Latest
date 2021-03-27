@@ -517,4 +517,9 @@
         .footer .footerLink ul li{
             font-size: 14px;
         }
+        /* ================ Employer Experience ================= */
+        .peopleControlInExperience img {
+            top: -9%;
+            left: -4.5%;
+        }
   }

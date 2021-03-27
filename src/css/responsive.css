@@ -58,7 +58,7 @@
         font-size: 17px;
     }
     body h2{
-        font-size: 16px;
+        font-size: 16px !important;
     }
     body p{
         font-size: 14px;
@@ -194,6 +194,10 @@
 /* =========== Reqrutes ================= */
 .recrutesCardRes{
     padding: 0;
+}
+ /* ================== Business ANalyst ================= */
+ .busAnlTxtCtrl{
+    font-size: 14px !important;
 }
 
   }
@@ -336,6 +340,10 @@
 .recrutesCardRes{
     padding: 0;
 }
+   /* ================== Business ANalyst ================= */
+   .busAnlTxtCtrl{
+    font-size: 14px !important;
+}
   }
   
   /* =============Small Devices ================= */
@@ -433,7 +441,7 @@
           font-size: 15px;
       }
       body h1{
-          font-size: 19px;
+          font-size: 19px !important;
       }
       body h2{
           font-size: 18px;
@@ -533,5 +541,18 @@
         /* ================== Recruiters ================= */
         .extraBg2 p {
             font-size: 13px;
+        }
+        /* ================== Business ANalyst ================= */
+        .busAnlTxtCtrl{
+            font-size: 15px !important;
+        }
+        .desExRedResCtrl{
+            width: 100% !important;
+        }
+        .busAnlFrm{
+            display: block;
+        }
+        .busFooterTitle{
+            font-size: 17px !important;
         }
   }

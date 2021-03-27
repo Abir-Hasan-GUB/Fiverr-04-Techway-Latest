@@ -177,6 +177,13 @@
 .eployLeft {
     max-height: 560px;
 }
+/* ============== Why hire our Graduates =================  */
+.realValueCards .card-deck .card p {
+    font-size: 13px;
+}
+.graduatesCardBodyCtrl{
+    padding: 0;
+}
   }
   
   /* =============Midium Devices ================= */
@@ -191,6 +198,10 @@
       body h2{
           font-size: 17px !important;
       }
+      body .button{
+          font-size: 16px;
+      }
+      
    /* =========== Nav Bar =========== */
    .navbar-nav .nav-link{
     padding: 0.5rem 0 !important;
@@ -294,6 +305,13 @@
 }
 #employmentMarket .eployRight p {
     font-size: 13px;
+}
+/* ============== Why hire our Graduates =================  */
+.realValueCards .card-deck .card p {
+    font-size: 13px;
+}
+.graduatesCardBodyCtrl{
+    padding: 0;
 }
   }
   
